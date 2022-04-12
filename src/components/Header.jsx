@@ -47,10 +47,6 @@ const Header =()=>{
       <NavLink exact activeClassName="change" to="/Skills" className="nav-link" style={{color:`${text}`}}>Skills</NavLink>
       </li>
       <li class="nav-item active">
-      <NavLink exact activeClassName="change" to="/Terms" className="nav-link" style={{color:`${text}`}}>Terms</NavLink>
-      </li>
-
-      <li class="nav-item active">
       <NavLink exact activeClassName="change" to="/Contacts" className="nav-link" style={{color:`${text}`}}>Contact</NavLink>
       </li>
       

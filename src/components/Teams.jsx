@@ -1,12 +1,12 @@
 import React from 'react';
 import  "./Port.css";
 
-const Services = () => {
+const Teams = () => {
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"5%"}} className="bottom">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%"}} className="bottom">
                 <div style={{ margin: "auto", marginTop: "7%" }}>
-                    <h1 style={{ color: 'white' }}>My Services</h1>
+                    <h1 style={{ color: 'white' }}>My teams</h1>
                     <span style={{ color: 'maroon' }}>____What I provide_____</span>
                 </div>
 
@@ -44,4 +44,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Teams;

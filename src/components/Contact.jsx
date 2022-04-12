@@ -5,15 +5,15 @@ import {NavLink} from "react-router-dom";
 const Contact = () => {
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "white" ,width:"100%"}} className="bottom">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",color:"white",marginTop:"5%"}} className="bottom">
                 <div style={{ margin: "auto", marginTop: "7%" }}>
-                    <h1 >Contact me</h1>
+                    <h1 style={{color:"white"}}>Contact me</h1>
                     <span style={{ color: 'red' }}>____get in touch_____</span>
                 </div>
 
                 <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} >
                     <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",textAlign:"justify"}}>
-                    <div>
+                    <div style={{color:"white"}}>
                     
                         <h4>Get in Touch</h4>
                         <p>Lorem Ipsum is simply dummy text osjdksjdksjkdjssum has been the industry'sx
