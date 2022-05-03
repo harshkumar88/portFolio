@@ -32,7 +32,7 @@ const Header =()=>{
         <nav className=" collapse pos-f-t navbar navbar-expand navbar-light " style={{backgroundColor:`${col}`}}>
         <ul className="navbar-nav ">
         <li className="nav-item active ">
-        <NavLink exact   to="/" className="nav-link" ><h1 style={{color:`${text}`}} className="port "><span style={{fontStretch:"extra-expanded",fontFamily:"sans-serif"}}>P</span>ortfo<span style={{color:`${t}`}}>lio</span></h1></NavLink>
+        <NavLink exact   to="/portFolio" className="nav-link" ><h1 style={{color:`${text}`}} className="port "><span style={{fontStretch:"extra-expanded",fontFamily:"sans-serif"}}>P</span>ortfo<span style={{color:`${t}`}}>lio</span></h1></NavLink>
       </li>
         </ul>
         <ul class="navbar-nav ml-auto " >
