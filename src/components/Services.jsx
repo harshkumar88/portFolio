@@ -1,11 +1,11 @@
 import React from 'react';
-import  "./Port.css";
+import  "./Port.scss";
 
 const Services = () => {
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"5%"}} className="bottom">
-                <div style={{ margin: "auto", marginTop: "7%" }}>
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%"}} className="bottom h-">
+                <div className="moving">
                     <h1 style={{ color: 'white' }}>My Services</h1>
                     <span style={{ color: 'maroon' }}>____What I provide_____</span>
                 </div>
@@ -15,7 +15,7 @@ const Services = () => {
                     <div className="card_hover">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
                         <h3>Web Design</h3>
-                        <p>Lorem Ipsum is simply dummy text osjdksjdksjkdjssum has been the industry's </p>
+                        <p>I can create Websites with latest technologies of React and Mongodb </p>
                     </div>
                     </div>
                     
@@ -24,7 +24,7 @@ const Services = () => {
                     <div className="card_hover">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
                         <h3>Advertising</h3>
-                        <p>Lorem Ipsum is simply dummy texsjaksjakjskjskt osum has been the industry's </p>
+                        <p>Build Web design to Advertising Brands  </p>
                     </div>
                     </div>
                    
@@ -33,7 +33,7 @@ const Services = () => {
                     <div className="card_hover">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
                         <h3>Android Developer</h3>
-                        <p>Lorem Ipsum is simply dummy text osdjksjkdjksjdksum has been the industry's </p>
+                        <p>I can make Android Applications using Java</p>
                     </div>
                     </div>
                 </div>

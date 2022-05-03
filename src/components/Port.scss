@@ -1,0 +1,109 @@
+.carding {
+    
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.1);
+    
+    border-radius: 5px;
+    
+    background-color: rgba(255, 255, 255, 0.0777);
+    color: white;
+
+    cursor: pointer;
+
+}
+.carding:hover{
+    transition: all 0.1s ease-in-out;
+    
+    background-color: rgb(172, 58, 58);
+}
+.boost{
+    color: rgb(197, 34, 34);
+    
+}
+.card_hover:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    .boost{
+        color:white
+        
+    }
+}
+
+
+.change{
+    border-bottom: 2px solid red;
+
+}
+$size:10px;
+.move{
+    margin: auto;
+    margin-top: 5%;
+}
+.moving{
+    margin: auto;
+    margin-top: 7%;
+}
+.scroll{
+    position:fixed;
+    bottom:10px
+}
+@media screen and (max-width: 800px) {
+    .short{font-size: $size;}
+    .hai{
+        font-size: 15px;
+    }
+    .bottom{
+        margin-top: 4%;
+    }
+    .move{
+        margin: auto;
+        margin-top: 15%;
+    }
+    .moving{
+        margin: auto;
+        margin-top: 15%;
+    }
+    .scroll{
+        position:fixed;
+        bottom:30px
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .short{font-size: 9px;}
+    .port{
+        font-size: 20px;
+    }
+    .move{
+        margin: auto;
+        margin-top: 20%;
+    }
+    .scroll{
+        position:fixed;
+        bottom:40px
+    }
+    .moving{
+        margin: auto;
+        margin-top: 17%;
+    }
+    
+  }
+
+ 
+
+
+  body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(200,200,200,1);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color:rgb(202, 138, 138);
+    -webkit-box-shadow: inset 0 0 6px rgba(90,90,90,0.7);
+}
+

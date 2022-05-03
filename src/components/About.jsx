@@ -1,22 +1,26 @@
-import React, { useState } from 'react';
-
+import React, { useEffect, useState } from 'react';
+import "./Port.scss"
+import img1 from './harsh.jpeg'
 import {Switch,Route} from "react-router-dom"
 
 const About = (props) => {
-    const [mt,see]=useState("7%")
+    
+    
  
  
     
     return (
         <>
-            <div style={{display:"flex",flexDirection:"column",flexWrap:"wrap"}} className="bottom">
-            <div style={{margin:"auto",marginTop:`${mt}`}}>
+            <div style={{display:"flex",flexDirection:"column",flexWrap:"wrap",marginTop:"4%"}} className="bottom">
+            <div className="move">
                 <h1>About me</h1>
                 <span style={{color:"red"}}>____Who i Am_____</span>
                 </div>
                 <div style={{display:"flex",justifyContent:"space-around",marginTop:'4%',marginBottom:"5%",flexWrap:"wrap"}}>
-                    <div style={{width:"350px",height:"350px"}}><img src="https://th.bing.com/th/id/OIP.kQb9khtxOxwErol-KhGysgHaHs?pid=ImgDet&rs=1" style={{width:"350px",height:"350px"}}  /></div>
-                    <div style={{textAlign:"justify",marginTop:"3%",width:'40%'}}><p style={{fontWeight:"bold"}}>I'm Harsh and I'm a web Developer</p><span >Lorem Ipsum is sied in the 1960s wtop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span><br/>
+                    <div style={{width:"350px",height:"350px"}}><img src={img1} style={{width:"350px",height:"350px"}}  /></div>
+                    <div style={{textAlign:"justify",marginTop:"3%",width:'40%' ,wordWrap:"break-word"}}><p style={{fontWeight:"bold"}}>I'm Harsh and I'm a web Developer</p><span >Currently I am a 2nd year Student in chitkara University I persuing my degree of Bachelor's of engineering ,I learn Many 
+                    Languages Know like HTMl,
+                    Css,Javacsript,Bootstrap,Jquery,React,MongoDb,Nodejs </span><br/>
                     <br/>
                     <button className="btn btn-outline-danger">Download Cv</button>
                     </div>
