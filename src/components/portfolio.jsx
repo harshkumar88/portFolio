@@ -22,7 +22,7 @@ const App = () => {
         
         <Header/>
             <Switch>
-                <Route exact path="/" render={()=>{
+                <Route exact path="/portFolio" render={()=>{
                     return <>  <Home/>
                                <About/>
                                <Services/>
