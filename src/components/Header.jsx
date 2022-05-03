@@ -38,7 +38,7 @@ const Header =()=>{
         <ul class="navbar-nav ml-auto " >
         
       <li class="nav-item active text" >
-      <NavLink exact activeClassName="change" to="/portFolio" className="nav-link" style={{color:`${text}`}}>Home</NavLink>
+      <NavLink exact activeClassName="change" to="/" className="nav-link" style={{color:`${text}`}}>Home</NavLink>
       </li>
       <li class="nav-item active">
       <NavLink exact activeClassName="change" to="/About" className="nav-link"style={{color:`${text}`}}>About</NavLink>
