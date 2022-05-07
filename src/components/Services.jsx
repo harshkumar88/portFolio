@@ -4,7 +4,7 @@ import  "./Port.scss";
 const Services = () => {
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%"}} className="bottom h-">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%",minWidth:"400px"}} className="bottom h-">
                 <div className="moving">
                     <h1 style={{ color: 'white' }}>My Services</h1>
                     <span style={{ color: 'maroon' }}>____What I provide_____</span>

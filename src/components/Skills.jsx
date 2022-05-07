@@ -40,7 +40,7 @@ const see=()=>{
 }
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "white" ,width:"100%",marginTop:"2.2%"}} className="bottom">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "white" ,width:"100%",marginTop:"2.2%",minWidth:"400px"}} className="bottom">
                 <div className="move">
                     <h1 >My SKills</h1>
                     <span style={{ color: 'red' }}>____What I Know_____</span>
@@ -51,14 +51,14 @@ const see=()=>{
                     <div>
                     
                         <h4>My creative skills & experiences</h4>
-                        <p>I learn HTML,CSS,javaScript,React,Node js,MongoDB,bootstrap,jquery </p>
+                        <p>I learn HTML,CSS,javaScript,React,Node js,MongoDB,bootstrap,jquery,Expressjs </p>
                        {vis==true? <p>I create Many Projects My Best Project Is MERN APP</p>:""}
                     </div>
-                    <button className="btn btn-outline-danger" style={{color:"black"}} onClick={see}>{word}</button>
+                    <button className="btn btn-outline-danger mb-5" style={{color:"black"}} onClick={see}>{word}</button>
                     </div>
                     
                     
-                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} className="downto mt-3 mb-5">
+                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} className="downto mt-5 mb-5">
                     {arr.map((ele,ind)=>{
                              return (
                                 <div >

@@ -74,7 +74,7 @@ const Contact = () => {
     }
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",width:"100%",marginTop:"4%"}} className="bottom mb-5">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",width:"100%",marginTop:"4%",minWidth:"400px"}} className="bottom mb-5">
                 <div className="move">
                     <h1>Contact me</h1>
                     <span style={{ color: 'maroon' }}>____get in touch_____</span>

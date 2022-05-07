@@ -6,7 +6,7 @@ const Teams = () => {
     const [w,change]=useState("350px")
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%"}} className="bottom">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%",minWidth:"400px"}} className="bottom">
                 <div className="moving">
                     <h1 style={{ color: 'white' }}>My Projects</h1>
                     <span style={{ color: 'maroon' }}>____What I Make_____</span>

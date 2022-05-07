@@ -40,7 +40,7 @@ const Header =()=>{
       <li class="nav-item active text" >
       <NavLink exact activeClassName="change" to="/portFolio" className="nav-link" style={{color:`${text}`}}>Home</NavLink>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item active takemargin">
       <NavLink exact activeClassName="change" to="/About" className="nav-link"style={{color:`${text}`}}>About</NavLink>
       </li>
       <li class="nav-item active">

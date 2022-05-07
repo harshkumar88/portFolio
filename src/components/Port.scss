@@ -70,10 +70,11 @@ $size:10px;
   }
 
   @media screen and (max-width: 600px) {
-    .short{font-size: 9px;}
+    .short{font-size: 10px;}
     .port{
         font-size: 20px;
     }
+   
     .move{
         margin: auto;
         margin-top: 20%;
