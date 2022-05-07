@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
 import { NavLink } from "react-router-dom"
-
+import img from './back.jpg'
 
 
 let data="WEBDEVELOPER";
-    let newdata="FREELANCER";
+    let newdata="WEBDESIGNER";
 
 const Home = () => {
     const [toggle, rev] = useState(false);
@@ -90,7 +90,7 @@ const Home = () => {
     return (
         <>
        
-            <div className="w-100 " style={{ backgroundImage: "url('https://photostockeditor.com/asset/1080/35/359a/PSE371.jpg')", backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", height: "100vh", backgroundRepeat: "no-repeat" ,minWidth:"400px"}} className="bottom">
+            <div className="w-100 " style={{ backgroundImage:  `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", height: "100vh", backgroundRepeat: "no-repeat" ,minWidth:"400px"}} className="bottom">
 
 
                 <div className=" container-fluid " style={{ display: 'flex', flexWrap: "wrap" }}>
