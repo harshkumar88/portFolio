@@ -37,7 +37,7 @@ const Home = () => {
                         <span>Hello,my name is </span><br />
                         <span style={{ fontFamily: "sans-serif", fontSize: "40px" }}>Harsh Kumar</span>
                         <h4>And I'm a Web Developer </h4>
-                        <button className="btn btn-danger"><NavLink exact to="/Contacts" style={{ color: "white", textDecoration: "none" }}>Hire me</NavLink></button>
+                        <button className="btn btn-danger"><NavLink exact to="/portFolio/Contacts" style={{ color: "white", textDecoration: "none" }}>Hire me</NavLink></button>
                     </div>
 
 

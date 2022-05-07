@@ -30,13 +30,13 @@ const App = () => {
                                <Project/>
                                <Contacts/></>
                                }}/>
-                <Route exact path="/About"  render={()=>{
+                <Route exact path="/portFolio/About"  render={()=>{
                      return <About name="down" />
                 }}/>
-                <Route exact path="/Services"  component={Services}/>
-                <Route exact path="/Skills"  component={Skills}/>
-                <Route exact path="/Projects"  component={Project}/>
-                <Route exact path="/Contacts"  component={Contacts}/>
+                <Route exact path="/portFolio/Services"  component={Services}/>
+                <Route exact path="/portFolio/Skills"  component={Skills}/>
+                <Route exact path="/portFolio/Projects"  component={Project}/>
+                <Route exact path="/portFolio/Contacts"  component={Contacts}/>
                 
 
             </Switch>

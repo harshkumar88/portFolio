@@ -41,19 +41,19 @@ const Header =()=>{
       <NavLink exact activeClassName="change" to="/portFolio" className="nav-link" style={{color:`${text}`}}>Home</NavLink>
       </li>
       <li class="nav-item active takemargin">
-      <NavLink exact activeClassName="change" to="/About" className="nav-link"style={{color:`${text}`}}>About</NavLink>
+      <NavLink exact activeClassName="change" to="/portFolio/About" className="nav-link"style={{color:`${text}`}}>About</NavLink>
       </li>
       <li class="nav-item active">
-      <NavLink exact activeClassName="change" to="/Services" className="nav-link" style={{color:`${text}`}}>Services</NavLink>
+      <NavLink exact activeClassName="change" to="/portFolio/Services" className="nav-link" style={{color:`${text}`}}>Services</NavLink>
       </li>
       <li class="nav-item active">
-      <NavLink exact activeClassName="change" to="/Skills" className="nav-link" style={{color:`${text}`}}>Skills</NavLink>
+      <NavLink exact activeClassName="change" to="/portFolio/Skills" className="nav-link" style={{color:`${text}`}}>Skills</NavLink>
       </li>
       <li class="nav-item active">
-      <NavLink exact activeClassName="change" to="/Projects" className="nav-link" style={{color:`${text}`}}>Projects</NavLink>
+      <NavLink exact activeClassName="change" to="/portFolio/Projects" className="nav-link" style={{color:`${text}`}}>Projects</NavLink>
       </li>
       <li class="nav-item active">
-      <NavLink exact activeClassName="change" to="/Contacts" className="nav-link" style={{color:`${text}`}}>Contact</NavLink>
+      <NavLink exact activeClassName="change" to="/portFolio/Contacts" className="nav-link" style={{color:`${text}`}}>Contact</NavLink>
       </li>
       
       </ul>
