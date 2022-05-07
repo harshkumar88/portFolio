@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './Header';
 import {Switch,Route} from "react-router-dom"
 import Home from './Home';
@@ -16,9 +16,11 @@ import Project from "./Teams"
            // </div>
 
 const App = () => {
+    
     return (
         <>
-        
+         
+         
         
         <Header/>
             <Switch>

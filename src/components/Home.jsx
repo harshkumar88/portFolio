@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { NavLink } from "react-router-dom"
 
 
 
-
+let data="WEBDEVELOPER";
+    let newdata="FREELANCER";
 
 const Home = () => {
     const [toggle, rev] = useState(false);
+    const[text,convert]=useState("");
     window.addEventListener('scroll', event => {
         if (window.scrollY == '0') {
 
@@ -20,6 +22,65 @@ const Home = () => {
 
 
     })
+    
+
+    useEffect(()=>{
+        let i=0;
+        let s="";
+        let c=data.length;
+        let pick=true;
+            const a=setInterval(()=>{
+               if(pick){
+                 if(i==data.length && s.length==0){
+                     i=0;
+                     c=newdata.length;
+                     pick=!pick;
+                 }
+                 else if(i==data.length){
+                    s=s.slice(0,c-1)
+                    c--;
+                    
+                    convert(s+"|");
+                    console.log(s)
+                    
+                }
+                else{
+                s=s+data[i];
+                
+                convert(s+"|");
+               
+                i++;
+                }
+            }
+            else{
+                if(i==newdata.length && s.length==0){
+                    i=0;
+                    c=data.length;
+                     pick=!pick;
+                }
+                else if(i==newdata.length){
+                   s=s.slice(0,c-1)
+                   c--;
+                   
+                   convert(s+"|");
+                   console.log(s)
+                   
+               }
+               else{
+               s=s+newdata[i];
+               
+               convert(s+"|");
+              
+               i++;
+               }
+            }
+             
+            },300)
+           
+        
+        
+           
+    },[])
     const back = () => {
         window.scrollTo({
             top: 0,
@@ -36,7 +97,7 @@ const Home = () => {
                     <div className="m-5 text-white" style={{ paddingTop: "10%", height: "200px" }}>
                         <span>Hello,my name is </span><br />
                         <span style={{ fontFamily: "sans-serif", fontSize: "40px" }}>Harsh Kumar</span>
-                        <h4>And I'm a Web Developer </h4>
+                        <h4>And I'm a <span style={{color:"maroon",fontVariant:"small-caps",fontFamily:"sans-serif",fontWeight:"bold"}}>{text} </span> </h4>
                         <button className="btn btn-danger"><NavLink exact to="/portFolio/Contacts" style={{ color: "white", textDecoration: "none" }}>Hire me</NavLink></button>
                     </div>
 
