@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom"
 import img from './back.jpg'
 
 
-let data="WEBDEVELOPER";
-    let newdata="WEBDESIGNER";
+let data="WEB DEVELOPER";
+    let newdata="WEB DESIGNER";
 
 const Home = () => {
     const [toggle, rev] = useState(false);
