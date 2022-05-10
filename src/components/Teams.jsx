@@ -49,7 +49,7 @@ const Teams = () => {
                     </div>
                     </div>
                 
-                   {display==true?
+                   
                     <div style={{width:w,textAlign:"center",padding:"15px",height:"270px",paddingTop:"3%" ,marginTop:"1%"}} className="carding">
                      
                     <div className="card_hover" >
@@ -61,19 +61,10 @@ const Teams = () => {
                         ➡️<p><a href="https://mead-node1-weather-application.herokuapp.com/"  target="_blank" style={{fontWeight:"bold",fontVariantCaps:"petite-caps"}} className="boost">Click Here</a></p>
                     </div>
                     </div>
-                   :""}
+                 
                    
                 </div>
-                <div className="w-100 bg-danger text-center">
-                   <button className="btn" onClick={()=>{
-                   
-                        
-                   
-                        revert(!display)
-                    
-                   
-                }}>▶️</button>
-                </div>
+               
                 
 
                

@@ -47,7 +47,7 @@ const see=()=>{
                 </div>
 
                 <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} >
-                    <div style={{width:"550px",padding:"15px",height:"100px",paddingTop:"1%",fontSize:"15px",textAlign:"justify"}} className="mb-5">
+                    <div style={{width:"550px",padding:"15px",height:"100px",paddingTop:"1%",fontSize:"15px"}} className="mb-5">
                     <div>
                     
                         <h4>My creative skills & experiences</h4>
@@ -62,7 +62,7 @@ const see=()=>{
                     {arr.map((ele,ind)=>{
                              return (
                                 <div >
-                    <span>{ele}</span><span style={{fontSize:"15px",fontWeight:"bold",marginBottom:"20px"}} className="float-right">{lead[ind]}</span>
+                    <span style={{fontWeight:"bold"}}>{ele}</span><span style={{fontSize:"15px",fontWeight:"bold",marginBottom:"20px"}} className="float-right">{lead[ind]}</span>
                     <div style={{height:"5px",backgroundColor:"grey",marginBottom:"20px",marginTop:"5px"}} >
                     <div style={{height:"5px",backgroundColor:"maroon"}} className="ch"></div>
                     </div>

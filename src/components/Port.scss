@@ -30,7 +30,11 @@
 
 
 .change{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid maroon;
+
+}
+.change2{
+    border-bottom: 2px solid black;
 
 }
 $size:10px;
@@ -74,6 +78,7 @@ $size:10px;
     .port{
         font-size: 20px;
     }
+    
    
     .move{
         margin: auto;
