@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { NavLink } from "react-router-dom"
-import img from './a.jpg'
+import img from './final.jpg'
 
 
 let data = "WEB DEVELOPER";

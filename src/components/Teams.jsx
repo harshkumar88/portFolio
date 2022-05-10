@@ -50,7 +50,7 @@ const Teams = () => {
                     </div>
                 
                    
-                    <div style={{width:w,textAlign:"center",padding:"15px",height:"270px",paddingTop:"3%" ,marginTop:"1%"}} className="carding">
+                    <div style={{width:w,textAlign:"center",padding:"15px",height:"270px",paddingTop:"3%" }} className="carding">
                      
                     <div className="card_hover" >
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
