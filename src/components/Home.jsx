@@ -91,9 +91,9 @@ const Home = () => {
         <>
 
             <div className="w-100  h-100" style={{ backgroundImage: `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", height: "100vh", backgroundRepeat: "no-repeat", minWidth: "400px" }} className="bottom">                <div className=" container-fluid " style={{ display: 'flex', flexWrap: "wrap" }}>
-                    <div className="m-5 text-white mx-auto" style={{ paddingTop: "13%", height: "200px" ,textShadow:"1px 5px black"}}>
+                    <div className="m-5 text-white mx-auto padd" style={{ paddingTop: "14%", height: "200px" ,textShadow:"1px 5px black"}}>
                         {/* <span>Hello,my name is </span><br /> */}
-                        <span style={{ fontFamily: "sans-serif", fontSize: "40px" }}>Greetings, I'm Harsh Kumar.</span>
+                        <span style={{ fontFamily: "sans-serif", fontSize: "40px" }} className="harsh">Greetings, I'm Harsh Kumar.</span>
                         <h3>I'm a <span style={{ color: "maroon", fontVariant: "small-caps", fontFamily: "sans-serif", fontWeight: "bold" }} className="fontchange">{text}<span style={{ color: "white" }}>|</span></span> </h3>
                         <button className="btn" style={{ backgroundColor: "maroon" }}><NavLink exact to="/portFolio/Contacts" style={{ color: "white", textDecoration: "none" }} >Hire me</NavLink></button>
                     </div>
