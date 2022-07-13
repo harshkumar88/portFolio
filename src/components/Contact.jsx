@@ -78,7 +78,7 @@ const Contact = () => {
             <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",width:"100%",marginTop:"4%",minWidth:"400px"}} className="bottom mb-5">
                 <div className="move">
                     <h1>Contact me</h1>
-                    <span style={{ color: 'maroon' }}>____get in touch_____</span>
+                    <span style={{ color: 'maroon' }} style={{marginLeft:"10px"}}>____get in touch_____</span>
                     <p className="text-center"><a href="https://www.instagram.com/harsh88361/" target="_blank"><i class='fa fa-instagram text-danger mr-2 hov' style={{fontSize:'25px'}}></i></a> <a href="https://www.facebook.com/profile.php?id=100047059654619" target="_blank"><i class='fa fa-facebook mr-2 hov' style={{color:'darkblue',fontSize:"25px"}}></i> </a> <a href="https://www.linkedin.com/in/harsh-kumar-67714921b" target="_blank"><i class='fa fa-linkedin text-primary mr-2 hov' style={{fontSize:'25px'}}></i></a></p>
                 </div>
 
@@ -87,7 +87,7 @@ const Contact = () => {
                     <div >
                     
                         <h4>Get in Touch</h4>
-                        <p>Let we discuss Any Your query and experience ,Share your message we will surely give a response. </p>
+                        <p>Let's talk about any of your questions or experiences. Send us your message, and we'll respond right away. </p>
                     </div>
                    <div style={{display:'inline',paddingTop:"8px"}}><img src={img1} style={{width:"70px",borderRadius:"50%"}}/></div>
                    <div style={{display:"inline" ,paddingTop:"8px",marginTop:'3px'}}>

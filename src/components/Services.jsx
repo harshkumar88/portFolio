@@ -15,7 +15,7 @@ const Services = () => {
                     <div className="card_hover">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
                         <h3>Web Design</h3>
-                        <p>I can create Websites with latest technologies of React and Mongodb </p>
+                        <p>I have the ability to build websites using the newest React and MongoDB technologies. </p>
                     </div>
                     </div>
                     
@@ -24,7 +24,7 @@ const Services = () => {
                     <div className="card_hover">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
                         <h3>Advertising</h3>
-                        <p>Build Web design to Advertising Brands  </p>
+                        <p>Building an advertising website to promote brands </p>
                     </div>
                     </div>
                    
@@ -32,8 +32,8 @@ const Services = () => {
                      
                     <div className="card_hover">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
-                        <h3>Android Developer</h3>
-                        <p>I can make Android Applications using Java</p>
+                        <h3>Android Programmer</h3>
+                        <p>I can use Java to create Android applications.s</p>
                     </div>
                     </div>
                 </div>

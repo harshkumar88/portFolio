@@ -20,7 +20,7 @@ const Skills = () => {
                
                 b+=2;
                 a.style.width=b+"%";
-            },50)
+            },100)
            
             a.style.color="red"
         }
@@ -51,20 +51,24 @@ const see=()=>{
                     <div>
                     
                         <h4>My creative skills & experiences</h4>
-                        <p>I learn HTML,CSS,javaScript,React,Node js,MongoDB,bootstrap,jquery,Expressjs </p>
-                       {vis==true? <p>I create Many Projects My Best Project Is MERN APP</p>:""}
+                        <p>I study Bootstrap, Jquery, JavaScript, React, Node JS, MongoDB, HTML, CSS, HTML5, CSS3, and ExpressJS.
+
+I develop Several Projects. MERN APP Is My Best Project.
+
+I am capable of developing websites using the most recent technology, making the design really interactive and using javascript for the proper features. </p>
+                       {vis==true? <p>providing a suitable database connection Using the mongodb server, it is a true full stack website.</p>:""}
                     </div>
                     <button className="btn btn-outline-danger mb-5" style={{color:"black"}} onClick={see}>{word}</button>
                     </div>
                     
                     
-                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} className="downto mt-5 mb-5">
+                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} className="downto mt-3 mb-5">
                     {arr.map((ele,ind)=>{
                              return (
                                 <div >
                     <span style={{fontWeight:"bold"}}>{ele}</span><span style={{fontSize:"15px",fontWeight:"bold",marginBottom:"20px"}} className="float-right">{lead[ind]}</span>
-                    <div style={{height:"5px",backgroundColor:"grey",marginBottom:"20px",marginTop:"5px"}} >
-                    <div style={{height:"5px",backgroundColor:"maroon"}} className="ch"></div>
+                    <div style={{height:"10px",backgroundColor:"grey",marginBottom:"20px",marginTop:"5px",borderRadius:"20px"}} >
+                    <div style={{height:"10px",backgroundColor:"maroon",borderRadius:"20px"}} className="ch"></div>
                     </div>
                     </div>
                              )
