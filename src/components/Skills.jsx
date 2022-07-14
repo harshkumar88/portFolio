@@ -47,7 +47,7 @@ const see=()=>{
                 </div>
 
                 <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} >
-                    <div style={{width:"550px",padding:"15px",height:"100px",paddingTop:"1%",fontSize:"15px"}} className="mb-5">
+                    <div style={{width:"550px",padding:"15px",height:"auto",paddingTop:"1%",fontSize:"15px"}} >
                     <div>
                     
                         <h4>My creative skills & experiences</h4>
@@ -58,11 +58,11 @@ I develop Several Projects. MERN APP Is My Best Project.
 I am capable of developing websites using the most recent technology, making the design really interactive and using javascript for the proper features. </p>
                        {vis==true? <p>providing a suitable database connection Using the mongodb server, it is a true full stack website.</p>:""}
                     </div>
-                    <button className="btn btn-outline-danger mb-5" style={{color:"black"}} onClick={see}>{word}</button>
+                    <button className="btn btn-outline-danger mb-5 mar" style={{color:"black"}} onClick={see} >{word}</button>
                     </div>
                     
                     
-                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} className="downto mt-3 mb-5">
+                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} className="downto  mb-5">
                     {arr.map((ele,ind)=>{
                              return (
                                 <div >

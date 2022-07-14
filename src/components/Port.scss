@@ -80,6 +80,12 @@ $size:10px;
         bottom:30px
     }
     
+
+    
+    .padd{
+        padding-top: 20% !important;
+    }
+    
   }
 
   @media screen and (max-width: 600px) {
@@ -109,14 +115,12 @@ $size:10px;
          
         font-size: 20px !important;
     }
-    .downto{
-        margin-top: 90px !important;
-    }
+    
     .harsh{
         font-size: 25px !important;
     }
     .padd{
-        padding-top: 31% !important;
+        padding-top: 33% !important;
     }
     
   }
