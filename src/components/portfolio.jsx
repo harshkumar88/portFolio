@@ -20,8 +20,6 @@ const App = () => {
     return (
         <>
          
-         
-        
         <Header/>
             <Switch>
                 <Route exact path="/portFolio" render={()=>{
