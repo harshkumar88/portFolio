@@ -40,7 +40,7 @@ const see=()=>{
 }
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "white" ,width:"100%",marginTop:"2.2%",minWidth:"400px"}} className="bottom">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "white" ,width:"100%",marginTop:"2.2%",minWidth:"400px"}} className="bottom ">
                 <div className="move">
                     <h1 >My SKills</h1>
                     <span style={{ color: 'red' }}>____What I Know_____</span>

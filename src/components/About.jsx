@@ -10,7 +10,7 @@ const About = (props) => {
     
     return (
         <>
-            <div style={{display:"flex",flexDirection:"column",flexWrap:"wrap",marginTop:"4%"}} className="bottom">
+            <div style={{display:"flex",flexDirection:"column",flexWrap:"wrap",marginTop:"3%"}} className="bottom ">
             <div className="move">
                 <h1>About me</h1>
                 <span style={{color:"red"}}>____Who i Am_____</span>

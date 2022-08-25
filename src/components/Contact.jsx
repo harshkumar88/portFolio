@@ -75,16 +75,16 @@ const Contact = () => {
     }
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",width:"100%",marginTop:"4%",minWidth:"400px"}} className="bottom mb-5">
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",width:"100%",marginTop:"3%",minWidth:"400px"}} className="bottom">
                 <div className="move">
                     <h1>Contact me</h1>
                     <span style={{ color: 'maroon' }} style={{marginLeft:"10px"}}>____get in touch_____</span>
-                    <p className="text-center"><a href="https://www.instagram.com/harsh88361/" target="_blank"><i class='fa fa-instagram text-danger mr-2 hov' style={{fontSize:'25px'}}></i></a> <a href="https://www.facebook.com/profile.php?id=100047059654619" target="_blank"><i class='fa fa-facebook mr-2 hov' style={{color:'darkblue',fontSize:"25px"}}></i> </a> <a href="https://www.linkedin.com/in/harsh-kumar-67714921b" target="_blank"><i class='fa fa-linkedin text-primary mr-2 hov' style={{fontSize:'25px'}}></i></a></p>
+                    <p className="text-center"><a href="https://github.com/harshkumar88/" target="_blank"><i class='fa fa-github text-danger mr-2 hov' style={{fontSize:'25px'}}></i></a><a href="https://www.instagram.com/harsh88361/" target="_blank"><i class='fa fa-instagram text-danger mr-1 hov' style={{fontSize:'25px'}}></i></a> <a href="https://www.facebook.com/profile.php?id=100047059654619" target="_blank"><i class='fa fa-facebook mr-1 hov' style={{color:'darkblue',fontSize:"25px"}}></i> </a> <a href="https://www.linkedin.com/in/harsh-kumar-67714921b" target="_blank"><i class='fa fa-linkedin text-primary mr-2 hov' style={{fontSize:'25px'}}></i></a></p>
                 </div>
 
                 <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} className="mb-5">
-                    <div style={{width:"550px",padding:"15px",height:"150px",paddingTop:"1%",fontSize:"15px",textAlign:"justify"}}>
-                    <div >
+                    <div style={{width:"550px",padding:"15px",height:"150px",paddingTop:"0.4%",fontSize:"15px",textAlign:"justify"}}>
+                    <div>
                     
                         <h4>Get in Touch</h4>
                         <p>Let's talk about any of your questions or experiences. Send us your message, and we'll respond right away. </p>
@@ -95,17 +95,11 @@ const Contact = () => {
                     
                     </div>
                     
-                      
-
-
-
-
-
 
                     </div>
                     
                     
-                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}}  className="mt-2">
+                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} >
                     <div style={{paddingTop:"20px"}}>
                     
                    <h3>Message me</h3>
@@ -123,7 +117,7 @@ const Contact = () => {
                    <input type="text" required placeholder="Message" className="input-group-text bg-light"  style={{width:"81%",height:"50px"}}  value={info.message} name="message" onChange={put}/>
                    <br/>
                    
-                   <button className="btn btn-outline-danger"  onClick={send} type="submit">Send Message</button>
+                   <button className="btn btn-outline-danger "  onClick={send} type="submit">Send Message</button>
                    </form>
                     </div>
 

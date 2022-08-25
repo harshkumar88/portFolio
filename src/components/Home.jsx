@@ -101,7 +101,7 @@ const Home = () => {
 
                 <div className="container-fluid row scroll">
                     <div className="  ml-auto ">
-                        {toggle ? <button className="btn btn-danger" onClick={back}><img src="https://cdn1.iconfinder.com/data/icons/different-arrows-with-background/512/arrow_arrows_up_line_scroll-512.png" className="img-fluid" style={{ width: "30px" }} /></button> : ""}
+                        {toggle ? <button className="btn btn-danger text-dark" onClick={back}><img src="https://cdn1.iconfinder.com/data/icons/different-arrows-with-background/512/arrow_arrows_up_line_scroll-512.png" className="img-fluid" style={{ width: "30px" }} /></button> : ""}
                     </div>
                 </div>
 
