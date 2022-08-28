@@ -75,15 +75,15 @@ const Contact = () => {
     }
     return (
         <>
-             <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",width:"100%",marginTop:"3%",minWidth:"400px"}} className="bottom mb-5">
-                <div className="move">
-                    <h1>Contact me</h1>
+             <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",marginTop:"3%"}} className="bottom mb-5 container-fluid">
+                <div className="move container text-center">
+                    <h1 style={{fontSize:"200%"}}>Contact me</h1>
                     <span style={{ color: 'maroon' }} style={{marginLeft:"10px"}}>____get in touch_____</span>
                     <p className="text-center"><a href="https://github.com/harshkumar88/" target="_blank"><i class='fa fa-github text-danger mr-2 hov' style={{fontSize:'25px'}}></i></a><a href="https://www.instagram.com/harsh88361/" target="_blank"><i class='fa fa-instagram text-danger mr-1 hov' style={{fontSize:'25px'}}></i></a> <a href="https://www.facebook.com/profile.php?id=100047059654619" target="_blank"><i class='fa fa-facebook mr-1 hov' style={{color:'darkblue',fontSize:"25px"}}></i> </a> <a href="https://www.linkedin.com/in/harsh-kumar-67714921b" target="_blank"><i class='fa fa-linkedin text-primary mr-2 hov' style={{fontSize:'25px'}}></i></a></p>
                 </div>
 
-                <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} className="mb-5">
-                    <div style={{width:"550px",padding:"15px",height:"150px",paddingTop:"0.4%",fontSize:"15px",textAlign:"justify"}}>
+                <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} className="mb-5 container-fluid">
+                    <div style={{width:"450px",padding:"15px",height:"150px",paddingTop:"0.4%",fontSize:"15px",textAlign:"justify"}}>
                     <div>
                     
                         <h4>Get in Touch</h4>
@@ -99,7 +99,7 @@ const Contact = () => {
                     </div>
                     
                     
-                    <div style={{width:"550px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} >
+                    <div style={{width:"600px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} >
                     <div style={{paddingTop:"20px"}}>
                     
                    <h3>Message me</h3>

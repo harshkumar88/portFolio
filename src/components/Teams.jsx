@@ -11,13 +11,13 @@ const Teams = () => {
     }
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%",minWidth:"400px"}} className="bottom">
-                <div className="moving">
-                    <h1 style={{ color: 'white' }}>My Projects</h1>
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%",overflow:"hidden"}} className="bottom container-fluid">
+                <div className="moving w-100 text-center">
+                    <h1 style={{ color: 'white',fontSize:"200%" }}>My Projects</h1>
                     <span style={{ color: 'maroon' }}>____What I Make_____</span>
                 </div>
 
-                <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} >
+                <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap"}} className="container-fluid" >
           
                 <div style={{width:w,textAlign:"center",padding:"15px",height:"270px",paddingTop:"1%",marginBottom:"7%"}} className="carding" >
                 <a href="https://mernharshapp.herokuapp.com/"  target="_blank" className="auto" style={{fontWeight:"bold",fontVariantCaps:"petite-caps",textDecoration:"none"}} className="boost">

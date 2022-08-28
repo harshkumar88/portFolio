@@ -89,13 +89,18 @@ const Home = () => {
     }
     return (
         <>
+        {/* style={{ backgroundImage: `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", backgroundRepeat: "no-repeat", minWidth: "400px" }} */}
 
-            <div className="w-100  h-100" style={{ backgroundImage: `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", maxHeight: "100vh",minHeight:"100vh", backgroundRepeat: "no-repeat", minWidth: "400px" }} className="bottom"><div className=" container-fluid " style={{ display: 'flex', flexWrap: "wrap" }}>
-                <div className="m-5 text-white mx-auto padd" style={{ paddingTop: "14%", height: "200px", textShadow: "1px 5px black" }}>
+            <div className="w-100  h-100"  className="bottom" style={{ backgroundImage: `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", backgroundRepeat: "no-repeat",minHeight:"100vh"}}>
+            <div className=" container-fluid " style={{ display: 'flex', flexWrap: "wrap" }}>
+                <div className="m-3 text-white mx-auto padd  w-100" style={{textShadow: "1px 5px black",position:"relative",top:"30vh" }}>
                     {/* <span>Hello,my name is </span><br /> */}
-                    <span style={{ fontFamily: "sans-serif", fontSize: "40px" }} className="harsh">Greetings, I'm Harsh Kumar.</span>
-                    <h3>I'm a <span style={{ color: "maroon", fontVariant: "small-caps", fontFamily: "sans-serif", fontWeight: "bold" }} className="fontchange">{text}<span style={{ color: "white" }}>|</span></span> </h3>
+                    <div className="mx-auto w-75">
+                    <span style={{ fontFamily: "sans-serif", fontSize: "300%" }} className="harsh">Greetings, I'm Harsh Kumar.</span>
+                    <h3>I'm a <span style={{ color: "maroon", fontVariant: "small-caps", fontFamily: "sans-serif", fontWeight: "bold" ,fontSize:"150%"}} className="fontchange">{text}<span style={{ color: "white" }}>|</span></span> </h3>
+                  
                     <button className="btn" style={{ backgroundColor: "maroon" }}><NavLink exact to="/portFolio/Contacts" style={{ color: "white", textDecoration: "none" }} >Hire me</NavLink></button>
+                    </div>
                 </div>
             </div>
 

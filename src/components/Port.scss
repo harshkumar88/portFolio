@@ -11,10 +11,7 @@
 
 }
 
-body{
-    max-width:100vw ;
-    overflow-x: hidden;
-}
+
 .carding:hover{
     transition: all 0.1s ease-in-out;
     
@@ -65,68 +62,72 @@ $size:10px;
     position:fixed;
     bottom:10px
 }
-@media screen and (max-width: 800px) {
-    // .short{font-size: $size;}
-    .hai{
-        font-size: 15px;
-    }
-    .bottom{
-        margin-top: 4%;
-    }
-    .move{
-        margin: auto;
-        margin-top: 15%;
-    }
-    .moving{
-        margin: auto;
-        margin-top: 15%;
-    }
-    .scroll{
-        position:fixed;
-        bottom:30px
-    }
-    
 
+@media screen and (max-width: 1100px) {
+  
+.bottom{
+   margin-top: 7% !important;
+}
+   
+ }
+ @media screen and (max-width: 800px) {
+     .harsh{
+    font-size: 180% !important;
     
-    .padd{
-        padding-top: 20% !important;
-    }
+}
+.fontchange{
+    font-size: 130% !important;
+}
+.bottom{
+    margin-top: 13% !important;
+}
     
   }
 
   @media screen and (max-width: 600px) {
     // .short{font-size: 10px;}
-    .port{
-        font-size: 20px;
-    }
+    // .port{
+    //     font-size: 20px;
+    // }
     
    
-    .move{
-        margin: auto;
-        margin-top: 20%;
+    // .move{
+    //     margin: auto;
+    //     margin-top: 20%;
+    // }
+    // .scroll{
+    //     position:fixed;
+    //     bottom:40px
+    // }
+    // .moving{
+    //     margin: auto;
+    //     margin-top: 17%;
+    // }
+    // .fontchange{
+    //     font-size: 20px;
+    // }
+
+    // .myname{
+         
+    //     font-size: 20px !important;
+    // }
+    
+    // .harsh{
+    //     font-size: 25px !important;
+    // }
+    // .padd{
+    //     padding-top: 33% !important;
+    // }
+
+   .harsh{
+    font-size: 180% !important;
+    
     }
-    .scroll{
-        position:fixed;
-        bottom:40px
-    }
-    .moving{
-        margin: auto;
-        margin-top: 17%;
+    .bottom{
+        margin-top: 17% !important;
     }
     .fontchange{
-        font-size: 20px;
-    }
-
-    .myname{
-         
-        font-size: 20px !important;
-    }
-    
-    .harsh{
-        font-size: 25px !important;
-    }
-    .padd{
-        padding-top: 33% !important;
+        font-size: 120% !important;
     }
     
   }
