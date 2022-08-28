@@ -99,7 +99,7 @@ const Contact = () => {
                     </div>
                     
                     
-                    <div style={{width:"600px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} >
+                    <div style={{width:"600px",padding:"15px",height:"270px",paddingTop:"1%",fontSize:"15px",fontFamily:"inherit"}} className="bot" >
                     <div style={{paddingTop:"20px"}}>
                     
                    <h3>Message me</h3>

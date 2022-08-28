@@ -1,3 +1,5 @@
+
+
 .carding {
     
     box-shadow: 0 15px 25px rgba(129, 124, 124, 0.1);
@@ -85,54 +87,46 @@ $size:10px;
   }
 
   @media screen and (max-width: 600px) {
-    // .short{font-size: 10px;}
-    // .port{
-    //     font-size: 20px;
-    // }
-    
    
-    // .move{
-    //     margin: auto;
-    //     margin-top: 20%;
-    // }
-    // .scroll{
-    //     position:fixed;
-    //     bottom:40px
-    // }
-    // .moving{
-    //     margin: auto;
-    //     margin-top: 17%;
-    // }
-    // .fontchange{
-    //     font-size: 20px;
-    // }
-
-    // .myname{
-         
-    //     font-size: 20px !important;
-    // }
-    
-    // .harsh{
-    //     font-size: 25px !important;
-    // }
-    // .padd{
-    //     padding-top: 33% !important;
-    // }
 
    .harsh{
     font-size: 180% !important;
     
     }
+    
     .bottom{
         margin-top: 17% !important;
     }
     .fontchange{
         font-size: 120% !important;
     }
+    .bot{
+        margin-top: 10%;
+    }
     
   }
 
+  @media screen and (max-width: 400px) {
+   
+
+    .harsh{
+     font-size: 180% !important;
+     
+     }
+     
+     .bottom{
+         margin-top: 23% !important;
+     }
+     .fontchange{
+         font-size: 102% !important;
+     }
+     .bot{
+         margin-top: 10%;
+     }
+     
+   }
  
+  
 
 
   body::-webkit-scrollbar {
