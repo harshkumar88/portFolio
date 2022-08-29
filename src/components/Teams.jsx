@@ -10,7 +10,7 @@ const Teams = () => {
         document.getElementsByClassName("auto")[0].click();
     }
     return (
-        <>
+        <div style={{backgroundColor:"black",minHeight:"100vh"}}>
             <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%",overflow:"hidden"}} className="bottom container-fluid">
                 <div className="moving w-100 text-center">
                     <h1 style={{ color: 'white',fontSize:"200%" }}>My Projects</h1>
@@ -82,7 +82,7 @@ const Teams = () => {
 
                
             </div>
-        </>
+        </div>
     )
 }
 

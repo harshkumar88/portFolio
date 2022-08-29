@@ -3,8 +3,9 @@ import  "./Port.scss";
 
 const Services = () => {
     return (
-        <>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", justifyContent:"space-around", backgroundColor: "black",marginTop:"2.2%",overflow:"hidden"}} className="bottom container-fluid">
+       <div style={{backgroundColor:"black",minHeight:"100vh"}}>
+        
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",marginTop:"2.2%",overflow:"hidden"}} className="bottom container-fluid">
                 <div className="moving w-100  text-center">
                     <h1 style={{ color: 'white' ,fontSize:"250%"}}>My Services</h1>
                     <span style={{ color: 'maroon' }}>____What I provide_____</span>
@@ -41,7 +42,7 @@ const Services = () => {
 
                
             </div>
-        </>
+         </div>
     )
 }
 
