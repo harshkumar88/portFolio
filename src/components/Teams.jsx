@@ -10,7 +10,7 @@ const Teams = () => {
         document.getElementsByClassName("auto")[0].click();
     }
     return (
-        <div style={{backgroundColor:"black",minHeight:"100vh"}}>
+        <div style={{backgroundColor:"black",minHeight:"100vh",overflow:"hidden"}}>
             <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", backgroundColor: "black" ,width:"100%",marginTop:"2.2%",overflow:"hidden"}} className="bottom container-fluid">
                 <div className="moving w-100 text-center">
                     <h1 style={{ color: 'white',fontSize:"200%" }}>My Projects</h1>
@@ -19,7 +19,7 @@ const Teams = () => {
 
                 <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap"}} className="container-fluid" >
           
-                <div style={{width:w,textAlign:"center",padding:"15px",height:"270px",paddingTop:"1%",marginBottom:"7%"}} className="carding" >
+                <div style={{width:"350px",textAlign:"center",padding:"15px",height:"270px",paddingTop:"1%",marginBottom:"7%"}} className="carding" >
                 <a href="https://mernharshapp.herokuapp.com/"  target="_blank" className="auto" style={{fontWeight:"bold",fontVariantCaps:"petite-caps",textDecoration:"none"}} className="boost">
                     <div className="card_hover text-white">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
@@ -33,7 +33,7 @@ const Teams = () => {
                     </a>
                     </div>
                   
-                    <div style={{width:w,textAlign:"center",padding:"15px",height:"270px",paddingTop:"1%",marginBottom:"7%"}} className="carding">
+                    <div style={{Width:"350px",textAlign:"center",padding:"15px",height:"270px",paddingTop:"1%",marginBottom:"7%"}} className="carding">
                     <a href="https://harshtodolistwebapp.herokuapp.com/"  target="_blank" style={{fontWeight:"bold",fontVariantCaps:"petite-caps",textDecoration:"none"}} className="boost">
                     <div className="card_hover text-white">
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
@@ -63,7 +63,7 @@ const Teams = () => {
                 
                    
                     <div style={{width:w,textAlign:"center",padding:"15px",height:"270px",paddingTop:"3%" }} className="carding">
-                    <a href="https://mead-node1-weather-application.herokuapp.com/"  target="_blank" style={{fontWeight:"bold",fontVariantCaps:"petite-caps",textDecoration:"none"}} className="boost">
+                    <a href="https://weatherappusing-api.herokuapp.com/"  target="_blank" style={{fontWeight:"bold",fontVariantCaps:"petite-caps",textDecoration:"none"}} className="boost">
                     <div className="card_hover text-white" >
                     <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{width:"30px",height:"30px",borderRadius:"50%"}}/></span>
                         <h3>Weather Application</h3>

@@ -74,7 +74,7 @@ const Contact = () => {
 
     }
     return (
-        <>
+        <div style={{backgroundColor:"white",minHeight:"100vh",overflow:"hidden"}}>
              <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",marginTop:"3%"}} className="bottom mb-5 container-fluid">
                 <div className="move container text-center">
                     <h1 style={{fontSize:"200%"}}>Contact me</h1>
@@ -128,7 +128,7 @@ const Contact = () => {
 
                
             </div>
-        </>
+        </div>
     )
 }
 

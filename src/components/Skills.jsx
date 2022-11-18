@@ -39,9 +39,9 @@ const Skills = () => {
         }
     }
     return (
-        <div style={{backgroundColor:"white",minHeight:"100vh"}}>
-            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",marginTop: "2.2%" }} className="bottom container-fluid">
-                <div className="move w-100 text-center">
+        <div style={{backgroundColor:"white",minHeight:"100vh",overflow:"hidden"}}>
+            <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",marginTop: "2.2%" }} className="bottom container-fluid mb-5">
+                <div className="move container text-center">
                     <h1 style={{ fontSize: "250%" }}>My SKills</h1>
                     <span style={{ color: 'red' }}>____What I Know_____</span>
                 </div>
