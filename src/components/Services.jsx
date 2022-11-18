@@ -6,7 +6,7 @@ const Services = () => {
         <div style={{ backgroundColor: "black", minHeight: "100vh" ,overflow:"hidden"}}>
 
             <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap", marginTop: "2.2%", overflow: "hidden" }} className="bottom container-fluid">
-                <div className="container-fluid mt-0 bg-danger" style={{display:"flex",flexDirection:"column",minHeight:"70vh"}}>
+                <div className="container-fluid mt-0 " style={{display:"flex",flexDirection:"column",minHeight:"70vh"}}>
                     <div className="moving container  text-center">
                         <h1 style={{ color: 'white', fontSize: "250%" }}>My Services</h1>
                         <span style={{ color: 'maroon' }}>____What I provide_____</span>
