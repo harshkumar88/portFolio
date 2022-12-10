@@ -1,6 +1,6 @@
-import React, { useState,useRef,useEffect } from 'react';
+import React, { useState} from 'react';
 import  "./Port.scss";
-import {NavLink} from "react-router-dom";
+
 import img1 from './harsh.jpeg'
 import emailjs from "emailjs-com";
 
