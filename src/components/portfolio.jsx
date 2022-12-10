@@ -30,6 +30,14 @@ const App = () => {
                                <Project/>
                                <Contacts/></>
                                }}/>
+                               <Route exact path="/portfolio" render={()=>{
+                                return <>  <Home/>
+                                           <About/>
+                                           <Services/>
+                                           <Skills/>
+                                           <Project/>
+                                           <Contacts/></>
+                                           }}/>
                 <Route exact path="/portFolio/About"  render={()=>{
                      return <About name="down" />
                 }}/>
