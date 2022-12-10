@@ -45,8 +45,6 @@ const App = () => {
                 <Route exact path="/portFolio/Skills"  component={Skills}/>
                 <Route exact path="/portFolio/Projects"  component={Project}/>
                 <Route exact path="/portFolio/Contacts"  component={Contacts}/>
-                
-
             </Switch>
            
             
