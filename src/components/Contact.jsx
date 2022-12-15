@@ -58,10 +58,6 @@ const Contact = () => {
            
         })
         
-
-       
-
-       
         setyou({
             name:"",
             email:"",
