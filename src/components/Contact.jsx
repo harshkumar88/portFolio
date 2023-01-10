@@ -3,9 +3,10 @@ import  "./Port.scss";
 
 import img1 from './harsh.jpeg'
 import emailjs from "emailjs-com";
+import { useRef } from 'react';
 
 const Contact = () => {
-    
+    const form = useRef();
     
     const[info,setyou]=useState({
         name:"",
@@ -20,55 +21,23 @@ const Contact = () => {
     }
 
     function sendemail(e){
-
-          
-        emailjs.sendForm('service_0mg8fpl', 'template_zc1vtou',e.target,"OxX59tq7hpDqnl0pp")
+       
+        e.preventDefault();
+        emailjs.sendForm('service_5ggn2u3', 'template_et70wif',form.current,"opo4WYGOAyYbrSr3X")
         .then((result) => {
             console.log(result);
         }, (error) => {
             console.log(error);
         });
-     }
+        alert("Thanks for contact me.")
 
-    const send= async(e)=>{
-        
-        const {name,email,subject,message}=info;
-        if(info.name!=='' && info.email!=='' && info.subject!=='' && info.message!=''){
-
-            e.preventDefault();
-        console.log(info)
-        
-       
-           alert("msg send")
-           
-          
-           
-        const data=await fetch("https://messagereciever-d8d3c-default-rtdb.firebaseio.com/portfoliodatabase.json",
-        {
-            method:"POST",
-            headers:{
-                "Content-Type":"application/json"
-
-            },
-            body:
-                JSON.stringify({
-                    name,email,subject,message
-                })
-            
-           
-        })
-        
         setyou({
             name:"",
             email:"",
             subject:"",
             message:""
         })
-    }
-           
-       
-
-    }
+     }
     return (
         <div style={{backgroundColor:"white",minHeight:"100vh",overflow:"hidden"}}>
              <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",marginTop:"3%"}} className="bottom mb-5 container-fluid">
@@ -99,9 +68,9 @@ const Contact = () => {
                     <div style={{paddingTop:"20px"}}>
                     
                    <h3>Message me</h3>
-                   <form method="POST" onSubmit={sendemail}>
+                   <form ref={form} onSubmit={sendemail}>
                    <input type="text" required  className="input-group-text bg-light" placeholder="Name" name="name" value={info.name} style={{width:"40%",display:"inline-block"}} onChange={put}/> 
-                   <input type="text"  required placeholder="Email" style={{width:"40%",display:"inline-block"}} name="email" value={info.email} className="input-group-text bg-light" onChange={put}/>
+                   <input type="email"  required placeholder="Email" style={{width:"40%",display:"inline-block"}} name="email" value={info.email} className="input-group-text bg-light" onChange={put}/>
                    <br/>
                    <br/>
                   
@@ -113,7 +82,7 @@ const Contact = () => {
                    <input type="text" required placeholder="Message" className="input-group-text bg-light"  style={{width:"81%",height:"50px"}}  value={info.message} name="message" onChange={put}/>
                    <br/>
                    
-                   <button className="btn btn-outline-danger "  onClick={send} type="submit">Send Message</button>
+                   <button className="btn btn-outline-danger "   type="submit">Send Message</button>
                    </form>
                     </div>
 
