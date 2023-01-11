@@ -15,7 +15,7 @@ const Teams = () => {
                 <div style={{ display: "flex", justifyContent: "space-around", marginTop: "5%", marginBottom: "7%", flexWrap: "wrap" }} className="container-fluid" >
 
                     <div style={{ width: "350px", textAlign: "center", padding: "15px", maxWidth: "330px", paddingTop: "1%", marginBottom: "7%" }} className="carding" >
-                        <a href="https://recipebook-harshkumar88.vercel.app/" target="_blank" className="auto boost" style={{ fontWeight: "bold", fontVariantCaps: "petite-caps", textDecoration: "none" }}>
+                        <a href="https://recipebook-m0jfutzhe-harshkumar88.vercel.app/" target="_blank" className="auto boost" style={{ fontWeight: "bold", fontVariantCaps: "petite-caps", textDecoration: "none" }}>
                             <div className="card_hover text-white">
                                 <span><img src="https://th.bing.com/th/id/OIP.GVhZiY6mRWJmELdhHs0ttwHaFP?pid=ImgDet&rs=1" style={{ width: "30px", height: "30px", borderRadius: "50%" }} /></span>
                                 <h3>Recipe Book</h3>
