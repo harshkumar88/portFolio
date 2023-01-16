@@ -22,7 +22,7 @@ const Teams = () => {
                                 <p style={{ color: "red" }}>MERN PROJECT</p>
                                 <p style={{ fontWeight: "bold", wordBreak: "break-all" }}>Frontend:React,bootstrap,javascript </p>
                                 <p style={{ fontWeight: "bold", wordBreak: "break-all" }}>Backend:Node js,MongoDB</p>
-                                ➡️<p className="text-danger">Click here</p>
+                                ➡️<p className="text-danger">Click Here</p>
 
                             </div>
                         </a>
