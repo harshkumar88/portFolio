@@ -26,9 +26,13 @@ const Contact = () => {
         emailjs.sendForm('service_5ggn2u3', 'template_et70wif',form.current,"opo4WYGOAyYbrSr3X")
         .then((result) => {
             console.log(result);
+            console.log("ji")
         }, (error) => {
             console.log(error);
+            console.log("hi")
         });
+
+
         alert("Thanks for contact me.")
 
         setyou({
@@ -43,7 +47,7 @@ const Contact = () => {
              <div style={{ display: "flex", flexDirection: "column", flexWrap: "wrap",marginTop:"3%"}} className="bottom mb-5 container-fluid">
                 <div className="move container text-center">
                     <h1 style={{fontSize:"200%"}}>Contact me</h1>
-                    <span style={{ color: 'maroon' }} style={{marginLeft:"10px"}}>____get in touch_____</span>
+                    <span style={{ color: 'maroon',marginLeft:"10px" }}>____get in touch_____</span>
                     <p className="text-center"><a href="https://github.com/harshkumar88/" target="_blank"><i class='fa fa-github text-danger mr-2 hov' style={{fontSize:'25px'}}></i></a><a href="https://www.instagram.com/harsh88361/" target="_blank"><i class='fa fa-instagram text-danger mr-1 hov' style={{fontSize:'25px'}}></i></a> <a href="https://www.facebook.com/profile.php?id=100047059654619" target="_blank"><i class='fa fa-facebook mr-1 hov' style={{color:'darkblue',fontSize:"25px"}}></i> </a> <a href="https://www.linkedin.com/in/harsh-kumar-67714921b" target="_blank"><i class='fa fa-linkedin text-primary mr-2 hov' style={{fontSize:'25px'}}></i></a></p>
                 </div>
 
