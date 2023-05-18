@@ -91,7 +91,7 @@ const Home = () => {
         <>
         {/* style={{ backgroundImage: `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", backgroundRepeat: "no-repeat", minWidth: "400px" }} */}
 
-            <div className="w-100  h-100"  className="bottom" style={{ backgroundImage: `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", backgroundRepeat: "no-repeat",minHeight:"100vh"}}>
+            <div className="w-100  h-100 bottom"  style={{ backgroundImage: `url(${img})`, backfaceVisibility: "hidden", backgroundAttachment: "fixed", backgroundSize: "100% 100%", backgroundRepeat: "no-repeat",minHeight:"100vh"}}>
             <div className=" container-fluid " style={{ display: 'flex', flexWrap: "wrap" }}>
                 <div className=" text-white mx-auto padd  w-100 wid" style={{textShadow: "1px 5px black",position:"relative",top:"30vh" }}>
                     {/* <span>Hello,my name is </span><br /> */}
