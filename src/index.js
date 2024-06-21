@@ -1,5 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Port from "./components/portfolio"
-import {BrowserRouter} from "react-router-dom";
-ReactDOM.render(<BrowserRouter><Port/></BrowserRouter>,document.getElementById("root"));
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+import { BrowserRouter } from "react-router-dom";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
