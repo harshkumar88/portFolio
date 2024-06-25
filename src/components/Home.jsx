@@ -96,7 +96,7 @@ const Home = () => {
                 <div className=" text-white mx-auto padd  w-100 wid" style={{textShadow: "1px 5px black",position:"relative",top:"30vh" }}>
                     {/* <span>Hello,my name is </span><br /> */}
                     <div className="mx-auto w-75">
-                    <span style={{ fontFamily: "sans-serif", fontSize: "300%" }} className="harsh">Greetings, I'm Harsh Kumar.</span>
+                    <span style={{ fontFamily: "sans-serif", fontSize: "300%" }} className="harsh">Greetings, I'm Dipanshu Bansal.</span>
                     <h3><span style={{ color: "maroon", fontVariant: "small-caps", fontFamily: "sans-serif", fontWeight: "bold" ,fontSize:"150%"}} className="fontchange">{text}<span style={{ color: "white" }}>|</span></span> </h3>
                   
                     <button className="btn" style={{ backgroundColor: "maroon" }}><NavLink exact to="/portFolio/Contacts" style={{ color: "white", textDecoration: "none" }} >Hire me</NavLink></button>

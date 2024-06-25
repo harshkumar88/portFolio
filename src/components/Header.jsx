@@ -57,7 +57,7 @@ const Header = () => {
                         <ul class="navbar-nav ml-auto " >
 
                             <li class="nav-item active text" >
-                                <NavLink exact  activeClassName={check?`{b == true ? "change" : "change2"}:"change"`:""} activeClassName={b == true ? "change" : "change2"} to="/portFolio" className="nav-link" style={{ color: `${text}` }} onClick={hiding}>Home</NavLink>
+                                <NavLink exact  activeClassName={check?`{b == true ? "change" : "change2"}:"change"`:""}    ClassName={b == true ? "change" : "change2"} to="/portFolio" className="nav-link" style={{ color: `${text}` }} onClick={hiding}>Home</NavLink>
                             </li>
                             <li class="nav-item active takemargin" >
                                 <NavLink exact activeClassName={check?"change":""} to="/portFolio/About" className="nav-link" style={{ color: `${text}` }} onClick={hiding}>About</NavLink>

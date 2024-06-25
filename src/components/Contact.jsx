@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import  "./Port.scss";
 
-import img1 from './harsh.jpeg'
+import img1 from './dipanshu.jpg'
 import emailjs from "emailjs-com";
 import { useRef } from 'react';
 
@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="move container text-center">
                     <h1 style={{fontSize:"200%"}}>Contact me</h1>
                     <span style={{ color: 'maroon',marginLeft:"10px" }}>____get in touch_____</span>
-                    <p className="text-center"><a href="https://github.com/harshkumar88/" target="_blank"><i class='fa fa-github text-danger mr-2 hov' style={{fontSize:'25px'}}></i></a><a href="https://www.instagram.com/harsh88361/" target="_blank"><i class='fa fa-instagram text-danger mr-1 hov' style={{fontSize:'25px'}}></i></a> <a href="https://www.facebook.com/profile.php?id=100047059654619" target="_blank"><i class='fa fa-facebook mr-1 hov' style={{color:'darkblue',fontSize:"25px"}}></i> </a> <a href="https://www.linkedin.com/in/harsh-kumar-67714921b" target="_blank"><i class='fa fa-linkedin text-primary mr-2 hov' style={{fontSize:'25px'}}></i></a></p>
+                    <p className="text-center"><a href="https://github.com/dipanshu66/" target="_blank"><i class='fa fa-github text-danger mr-2 hov' style={{fontSize:'25px'}}></i></a><a href="https://www.instagram.com/dipanshubansal_/" target="_blank"><i class='fa fa-instagram text-danger mr-1 hov' style={{fontSize:'25px'}}></i></a> <a href="https://www.facebook.com/profile.php" target="_blank"><i class='fa fa-facebook mr-1 hov' style={{color:'darkblue',fontSize:"25px"}}></i> </a> <a href="https://www.linkedin.com/in/dipanshu-bansal-554a50306" target="_blank"><i class='fa fa-linkedin text-primary mr-2 hov' style={{fontSize:'25px'}}></i></a></p>
                 </div>
 
                 <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",marginBottom:"7%",flexWrap:"wrap",width:"100%"}} className="mb-5 container-fluid">
@@ -60,7 +60,7 @@ const Contact = () => {
                     </div>
                    <div style={{display:'inline',paddingTop:"8px"}}><img src={img1} style={{width:"70px",borderRadius:"50%"}}/></div>
                    <div style={{display:"inline" ,paddingTop:"8px",marginTop:'3px'}}>
-                    <span style={{marginLeft:"5%",fontWeight:"bolder"}}>Harsh Kumar</span>
+                    <span style={{marginLeft:"5%",fontWeight:"bolder"}}>Dipanshu Bansal</span>
                     
                     </div>
                     
